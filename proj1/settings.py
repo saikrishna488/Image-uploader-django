@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a_zy)07-aa-&y52(33^@o8b#iutkhx6^+-(%joqal6*jlw@s_w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','.vercel.app']
+ALLOWED_HOSTS = ['*','image-uploader-i8h8.onrender.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = [
     'https://image-uploader-i8h8.onrender.com/'
 ]
