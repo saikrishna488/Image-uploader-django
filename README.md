@@ -1,4 +1,4 @@
-I apologize for the oversight. If your project doesn't include user authentication, you can update the README accordingly. Here's a revised version:
+
 
 ```markdown
 # Django Image Uploader
