@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-a_zy)07-aa-&y52(33^@o8b#iutkhx6^+-(%joqal6*jlw@s_w
 DEBUG = True
 
 ALLOWED_HOSTS = ['*','image-uploader-i8h8.onrender.com', 'localhost']
-CSRF_TRUSTED_ORIGINS = [
-    'https://image-uploader-i8h8.onrender.com/'
-]
+CSRF_USE_SESSIONS = True
 
 # Application definition
 
@@ -46,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
